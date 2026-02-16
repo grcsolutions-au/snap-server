@@ -12,6 +12,7 @@ module Control.Concurrent.Extended
 #if defined(LABEL_THREADS)
     , labelThreadBs
 #endif
+    , module Control.Concurrent
     ) where
 
 ------------------------------------------------------------------------------
