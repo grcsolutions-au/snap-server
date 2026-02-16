@@ -9,6 +9,9 @@
 module Control.Concurrent.Extended
     ( forkIOLabeledWithUnmaskBs
     , forkOnLabeledWithUnmaskBs
+#if defined(LABEL_THREADS)
+    , labelThreadBs
+#endif
     ) where
 
 ------------------------------------------------------------------------------
