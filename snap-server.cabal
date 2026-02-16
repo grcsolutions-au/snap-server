@@ -72,6 +72,7 @@ Library
   Default-language:  Haskell2010
 
   exposed-modules:
+    Control.Concurrent.Extended,
     Snap.Http.Server,
     Snap.Http.Server.Config,
     Snap.Http.Server.Types,
@@ -81,7 +82,6 @@ Library
 
   other-modules:
     Paths_snap_server,
-    Control.Concurrent.Extended,
     Snap.Internal.Http.Server.Address,
     Snap.Internal.Http.Server.Clock,
     Snap.Internal.Http.Server.Common,
